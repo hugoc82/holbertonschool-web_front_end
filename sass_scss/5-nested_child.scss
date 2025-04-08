@@ -1,0 +1,11 @@
+/* 
+ * 5-nested_child.scss
+ */
+
+body {
+  color: #3D3D3D; // Application de la couleur de texte #3D3D3D aux éléments dans body
+
+  > .red {
+    color: #FF0000; // Application de la couleur de texte #FF0000 aux éléments .red qui sont les premiers enfants directs de body
+  }
+}

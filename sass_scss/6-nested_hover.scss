@@ -1,0 +1,11 @@
+/* 
+ * 6-nested_hover.scss
+ */
+
+button {
+  color: #FF0000; // Application de la couleur de texte #FF0000 aux balises button
+
+  &:hover {
+    color: #00FF00; // Application de la couleur de texte #00FF00 lors du survol de la balise button
+  }
+}
