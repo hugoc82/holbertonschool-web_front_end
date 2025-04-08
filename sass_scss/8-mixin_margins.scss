@@ -1,0 +1,18 @@
+/* 
+ * 8-mixin_margins.scss
+ */
+
+// Définition du mixin pour les marges gauche et droite
+@mixin set-margins($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+// Application du mixin aux balises body et div
+body {
+  @include set-margins(10px, 10px); // Application des marges 10px à gauche et à droite pour body
+}
+
+div {
+  @include set-margins(15px, 15px); // Application des marges 15px à gauche et à droite pour div
+}

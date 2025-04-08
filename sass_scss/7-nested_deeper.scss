@@ -1,0 +1,15 @@
+/* 
+ * 7-nested_deeper.scss
+ */
+
+body {
+  font-size: 14px; // Taille de police 14px pour tous les éléments body
+
+  h1 {
+    font-size: 16px; // Taille de police 16px pour tous les h1 à l'intérieur de body
+
+    &.smaller {
+      font-size: 12px; // Taille de police 12px pour les h1 avec la classe .smaller à l'intérieur de body
+    }
+  }
+}

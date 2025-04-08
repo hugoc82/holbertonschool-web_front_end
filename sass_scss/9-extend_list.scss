@@ -1,0 +1,19 @@
+/* 
+ * 9-extend_list.scss
+ */
+
+// Définition de la classe .info avec une taille de police
+.info {
+  font-size: 12px;
+}
+
+// Extension de la classe .info dans .success et .warning
+.success {
+  @extend .info; // Extension de la classe .info
+  color: #00FF00; // Application de la couleur verte pour .success
+}
+
+.warning {
+  @extend .info; // Extension de la classe .info
+  color: #FF0000; // Application de la couleur rouge pour .warning
+}

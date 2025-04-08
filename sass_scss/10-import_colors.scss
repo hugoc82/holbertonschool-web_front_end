@@ -1,0 +1,19 @@
+/* 
+ * 10-import_colors.scss
+ */
+
+// Import des couleurs depuis le fichier 10-colors.scss
+@import '10-colors';
+
+// Application des couleurs aux classes respectives
+.red {
+  color: $red; // Utilisation de la couleur $red pour la classe .red
+}
+
+.green {
+  color: $green; // Utilisation de la couleur $green pour la classe .green
+}
+
+.blue {
+  color: $blue; // Utilisation de la couleur $blue pour la classe .blue
+}
