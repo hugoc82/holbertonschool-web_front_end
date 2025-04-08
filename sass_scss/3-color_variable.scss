@@ -1,0 +1,12 @@
+/* 
+ * 3-nested_tag.scss
+ */
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  p {
+    margin: 10px; // Application de 10px de marge aux balises p à l'intérieur de body
+  }
+}
